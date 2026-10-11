@@ -1,11 +1,10 @@
-"""Analyze the IR-LPR license plate crops and their XML labels.
+"""
+   Analyze the IR-LPR license plate crops and their XML labels.
 
-Run from the project root:
-    python scripts/analyze_labels.py
-
-Prints the vocabulary, plate length / pattern statistics, image size
-statistics, and suspicious samples, which are needed to design the
-character set and the dataset loader.
+   Prints the vocabulary, plate length / pattern statistics, image size
+   statistics, and suspicious samples, which are needed to design the
+   character set and the dataset loader.
+   
 """
 import statistics
 import xml.etree.ElementTree as ET

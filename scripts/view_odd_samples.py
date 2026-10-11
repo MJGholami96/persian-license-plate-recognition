@@ -1,11 +1,11 @@
-"""Save a few unusual plates (length != 8) with their character boxes drawn.
+"""
+    Save a few unusual plates (length != 8) with their character boxes drawn.
 
-Run from the project root:
-    python scripts/view_odd_samples.py
 
-Picks a random sample of XML files, groups the plates whose length is not 8,
-and saves annotated images to results/odd_samples/ so the labels can be
-checked by eye.
+    Picks a random sample of XML files, groups the plates whose length is not 8,
+    and saves annotated images to results/odd_samples/ so the labels can be
+    checked by eye.
+    
 """
 import random
 import xml.etree.ElementTree as ET
